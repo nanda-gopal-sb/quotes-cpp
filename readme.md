@@ -13,7 +13,7 @@ sudo apt-get install sqlite3 libsqlite3-dev
 ### Usage
 1. Clone the repository:
     ```sh
-    git clone /home/nandagopal/projects/c++/quotes
+    git clone https://github.com/nanda-gopal-sb/quotes-cpp
     cd quotes
     ```
 2. Compile the project:
