@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 { 
 	sqlite3* DB; 
 	int exit = 0; 
-	exit = sqlite3_open("/home/nandagopal/projects/c++/quotes/quotes.db", &DB); 
+	exit = sqlite3_open("./quotes.db", &DB);
 	string data("CALLBACK FUNCTION"); 
 	string sql("SELECT * FROM quotes ORDER BY RANDOM() LIMIT 1;"); 
 	if (exit) { 
